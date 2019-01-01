@@ -2,13 +2,13 @@
 
 ## Question 1
 
-https://github.com/mayukataoka/yml
+https://github.com/mayukataoka/yml/blob/master/number_pyramid.py
 
 ## Question 2
 
 ### Normal Case 1
 ```
-(venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1 2 3
+mayukataoka$ python number_pyramid.py 1 2 3
 1 2 3
 3 5
 8
@@ -16,7 +16,7 @@ https://github.com/mayukataoka/yml
 
 ### With nagative numbers
 ```
-(venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py -1 -2 -3
+mayukataoka$ python number_pyramid.py -1 -2 -3
 -1 -2 -3
 -3 -5
 -8
@@ -42,7 +42,7 @@ https://github.com/mayukataoka/yml
 ```
 ### same numbers 
 ```
-(venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 
+mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1
 2 2 2 2 2 2
 4 4 4 4 4
@@ -54,8 +54,7 @@ https://github.com/mayukataoka/yml
 ### many numbers 
 
 ```
-
-(venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
