@@ -18,5 +18,6 @@ def create_pyramid_vertically(input_list):
         row = create_new_pyramid_row(row)
 
 if __name__ == '__main__':
+    # convert strings to integers. For instance, from "1" to 1.
     given_list = [int(i) for i in sys.argv[1:]]
     create_pyramid_vertically(given_list)
