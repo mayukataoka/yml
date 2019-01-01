@@ -1,4 +1,4 @@
-## Number Pyramid
+
 
 ## Question 1
 
