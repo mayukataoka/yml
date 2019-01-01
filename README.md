@@ -6,7 +6,7 @@ https://github.com/mayukataoka/yml/blob/master/number_pyramid.py
 
 ## Question 2
 
-### Normal Case 1
+### Normal Case
 ```
 mayukataoka$ python number_pyramid.py 1 2 3
 1 2 3
@@ -14,7 +14,7 @@ mayukataoka$ python number_pyramid.py 1 2 3
 8
 ```
 
-### With nagative numbers
+### Nagative numbers
 ```
 mayukataoka$ python number_pyramid.py -1 -2 -3
 -1 -2 -3
@@ -22,25 +22,25 @@ mayukataoka$ python number_pyramid.py -1 -2 -3
 -8
 ```
 
-### 1 argument
+### One argument
 ```
 (venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1
 1
 ```
-### odd number arguments
+### Odd number arguments
 ```
 (venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1 2 3
 1 2 3
 3 5
 8
 ```
-### even number arguments
+### Even number arguments
 ```
 (venv) MAYUs-MacBook-Pro:interview mayukataoka$ python number_pyramid.py 1 2 
 1 2
 3
 ```
-### same numbers 
+### Same numbers 
 ```
 mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1
@@ -51,7 +51,7 @@ mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1
 32 32
 64
 ```
-### many numbers 
+### Many numbers 
 
 ```
 mayukataoka$ python number_pyramid.py 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
