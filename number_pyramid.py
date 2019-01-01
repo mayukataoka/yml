@@ -13,7 +13,7 @@ def create_pyramid_vertically(input_list):
 
     row = input_list
     for i in range(0, len(input_list)):
-        # print a row with one space characters between numbers.
+        # print a row with one space character between numbers.
         print(*row)
         row = create_new_pyramid_row(row)
 
